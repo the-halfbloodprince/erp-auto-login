@@ -42,7 +42,7 @@ function show_open_if_already_saved() {
     let values = Object.values(results);
     if (!values.includes(""))
       document.getElementById("status").innerHTML =
-        '<div class="alert alert-success" role="alert">Your credentials have been saved. Open <a href="https://erp.iitkgp.ac.in" target="_blank">ERP, IITKGP</a>.</div>';
+        '<div class="alert alert-success" id="Saved" role="alert">Your credentials have been saved. Open <a href="https://erp.iitkgp.ac.in" target="_blank">ERP, IITKGP</a>.</div>';
   });
 }
 
